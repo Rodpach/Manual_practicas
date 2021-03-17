@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gradilla_ajustada" id="gradilla_ajustada">
+	<SimpleField name="id" type="string"></SimpleField>
+</Schema>
+<Folder><name>gradilla_ajustada</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.238098410216,19.6369786945032 -101.237008292906,19.6369786945032 -101.237008292906,19.6367025505675 -101.237188523816,19.6367957462605 -101.238098410216,19.6369786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6367025505675 -101.237008292906,19.6369786945032 -101.234508292906,19.6369786945032 -101.234508292906,19.6359974380854 -101.234831779234,19.6359974380854 -101.236134190713,19.6362505606194 -101.237008292906,19.6367025505675</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6359974380854 -101.234508292906,19.6369786945032 -101.232008292906,19.6369786945032 -101.232008292906,19.6348824761892 -101.232330322266,19.6349849439598 -101.233446674962,19.635335423418 -101.233942831716,19.6359974380854 -101.234508292906,19.6359974380854</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.232008292906,19.6348824761892 -101.232008292906,19.6369786945032 -101.229508292906,19.6369786945032 -101.229508292906,19.63451011634 -101.229766845703,19.6344786945032 -101.230800505607,19.6344981656657 -101.232008292906,19.6348824761892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.229508292906,19.63451011634 -101.229508292906,19.6369786945032 -101.228336263744,19.6369786945032 -101.228361068233,19.6364063281343 -101.228485107422,19.6355496049326 -101.228526453818,19.6351796548644 -101.228485107422,19.6346344637367 -101.229508292906,19.63451011634</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.240466665452,19.6394786945032 -101.239508292906,19.6394786945032 -101.239508292906,19.637318297495 -101.240620274698,19.6376719335915 -101.241447202621,19.6380224071852 -101.240466665452,19.6394786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239508292906,19.637318297495 -101.239508292906,19.6394786945032 -101.237008292906,19.6394786945032 -101.237008292906,19.6369786945032 -101.238098410216,19.6369786945032 -101.239028438445,19.6371656926056 -101.239508292906,19.637318297495</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6369786945032 -101.237008292906,19.6394786945032 -101.234508292906,19.6394786945032 -101.234508292906,19.6369786945032 -101.237008292906,19.6369786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6369786945032 -101.234508292906,19.6394786945032 -101.232008292906,19.6394786945032 -101.232008292906,19.6369786945032 -101.234508292906,19.6369786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.232008292906,19.6369786945032 -101.232008292906,19.6394786945032 -101.229508292906,19.6394786945032 -101.229508292906,19.6369786945032 -101.232008292906,19.6369786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.228336263744,19.6369786945032 -101.229508292906,19.6369786945032 -101.229508292906,19.6394786945032 -101.228690085358,19.6394786945032 -101.228671166205,19.6390154115464 -101.229394728138,19.6384507627609 -101.228815878591,19.6375356380985 -101.228319721837,19.637360400866 -101.228336263744,19.6369786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.240265580259,19.6419786945032 -101.239508292906,19.6419786945032 -101.239508292906,19.6394786945032 -101.240466665452,19.6394786945032 -101.240372196321,19.6396189994317 -101.240265580259,19.6419786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239508292906,19.6394786945032 -101.239508292906,19.6419786945032 -101.237008292906,19.6419786945032 -101.237008292906,19.6394786945032 -101.239508292906,19.6394786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6394786945032 -101.237008292906,19.6419786945032 -101.234508292906,19.6419786945032 -101.234508292906,19.6394786945032 -101.237008292906,19.6394786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6394786945032 -101.234508292906,19.6419786945032 -101.232008292906,19.6419786945032 -101.232008292906,19.6394786945032 -101.234508292906,19.6394786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.232008292906,19.6394786945032 -101.232008292906,19.6419786945032 -101.229508292906,19.6419786945032 -101.229508292906,19.6394786945032 -101.232008292906,19.6394786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.228690085358,19.6394786945032 -101.229508292906,19.6394786945032 -101.229508292906,19.6419786945032 -101.22864850515,19.6419786945032 -101.228547127016,19.6414492197919 -101.229001937374,19.6405341122199 -101.229250015751,19.6401057622024 -101.228691839403,19.6395216467004 -101.228690085358,19.6394786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.240431856479,19.6444786945032 -101.239508292906,19.6444786945032 -101.239508292906,19.6419786945032 -101.240265580259,19.6419786945032 -101.240206810736,19.6432794192869 -101.240351523122,19.6443113310793 -101.240431856479,19.6444786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239508292906,19.6419786945032 -101.239508292906,19.6444786945032 -101.237008292906,19.6444786945032 -101.237008292906,19.6419786945032 -101.239508292906,19.6419786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6419786945032 -101.237008292906,19.6444786945032 -101.234508292906,19.6444786945032 -101.234508292906,19.6419786945032 -101.237008292906,19.6419786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">30</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6419786945032 -101.234508292906,19.6444786945032 -101.232008292906,19.6444786945032 -101.232008292906,19.6419786945032 -101.234508292906,19.6419786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.229508292906,19.6442129973127 -101.229508292906,19.6419786945032 -101.232008292906,19.6419786945032 -101.232008292906,19.6444786945032 -101.229631990062,19.6444786945032 -101.229508292906,19.6442129973127</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.22864850515,19.6419786945032 -101.229508292906,19.6419786945032 -101.229508292906,19.6442129973127 -101.228774532195,19.6426369048198 -101.22864850515,19.6419786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">35</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.2410645081,19.6469786945032 -101.239508292906,19.6469786945032 -101.239508292906,19.6444786945032 -101.240431856479,19.6444786945032 -101.241033738659,19.6457326326866 -101.2410645081,19.6469786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239508292906,19.6444786945032 -101.239508292906,19.6469786945032 -101.237008292906,19.6469786945032 -101.237008292906,19.6444786945032 -101.239508292906,19.6444786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6444786945032 -101.237008292906,19.6469786945032 -101.234508292906,19.6469786945032 -101.234508292906,19.6444786945032 -101.237008292906,19.6444786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">38</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6444786945032 -101.234508292906,19.6469786945032 -101.232008292906,19.6469786945032 -101.232008292906,19.6444786945032 -101.234508292906,19.6444786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.229631990062,19.6444786945032 -101.232008292906,19.6444786945032 -101.232008292906,19.6469786945032 -101.230348326856,19.6469786945032 -101.230200982863,19.6460246794033 -101.229952904486,19.6451680075275 -101.229631990062,19.6444786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.24685493585,19.6494786945032 -101.244508292906,19.6494786945032 -101.244508292906,19.6491982194598 -101.244754914315,19.6491982194598 -101.245643861832,19.6492760969544 -101.246615502142,19.649217688837 -101.247008292906,19.6492760969544 -101.24685493585,19.6494786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">42</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.244508292906,19.6491982194598 -101.244508292906,19.6494786945032 -101.242008292906,19.6494786945032 -101.242008292906,19.6485226861837 -101.243039038874,19.6488867091032 -101.243845293599,19.6491982194598 -101.244508292906,19.6491982194598</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.242008292906,19.6485226861837 -101.242008292906,19.6494786945032 -101.239508292906,19.6494786945032 -101.239508292906,19.6469786945032 -101.2410645081,19.6469786945032 -101.241075085055,19.6474070266514 -101.241881339781,19.6484778508424 -101.242008292906,19.6485226861837</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">44</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239508292906,19.6469786945032 -101.239508292906,19.6494786945032 -101.237008292906,19.6494786945032 -101.237008292906,19.6469786945032 -101.239508292906,19.6469786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6469786945032 -101.237008292906,19.6494786945032 -101.234508292906,19.6494786945032 -101.234508292906,19.6469786945032 -101.237008292906,19.6469786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6469786945032 -101.234508292906,19.6494786945032 -101.232008292906,19.6494786945032 -101.232008292906,19.6469786945032 -101.234508292906,19.6469786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.230348326856,19.6469786945032 -101.232008292906,19.6469786945032 -101.232008292906,19.6494786945032 -101.230807945213,19.6494786945032 -101.230531754032,19.6481663390875 -101.230348326856,19.6469786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.244915083227,19.6519786945032 -101.244508292906,19.6519786945032 -101.244508292906,19.6494786945032 -101.24685493585,19.6494786945032 -101.245519822644,19.6512424911688 -101.244915083227,19.6519786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.242008292906,19.651519928018 -101.242008292906,19.6494786945032 -101.244508292906,19.6494786945032 -101.244508292906,19.6519786945032 -101.242310498788,19.6519786945032 -101.242026052167,19.6515150587622 -101.242008292906,19.651519928018</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.240335069228,19.6519786945032 -101.239508292906,19.6519786945032 -101.239508292906,19.6494786945032 -101.242008292906,19.6494786945032 -101.242008292906,19.651519928018 -101.240335069228,19.6519786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239508292906,19.6494786945032 -101.239508292906,19.6519786945032 -101.237008292906,19.6519786945032 -101.237008292906,19.6494786945032 -101.239508292906,19.6494786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6494786945032 -101.237008292906,19.6519786945032 -101.234508292906,19.6519786945032 -101.234508292906,19.6494786945032 -101.237008292906,19.6494786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6494786945032 -101.234508292906,19.6519786945032 -101.232008292906,19.6519786945032 -101.232008292906,19.6494786945032 -101.234508292906,19.6494786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">55</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.230807945213,19.6494786945032 -101.232008292906,19.6494786945032 -101.232008292906,19.6519786945032 -101.231334081611,19.6519786945032 -101.230807945213,19.6494786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">57</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.244508292906,19.6522834329289 -101.244508292906,19.6519786945032 -101.244915083227,19.6519786945032 -101.244672221522,19.6522743517593 -101.244508292906,19.6522834329289</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.242310498788,19.6519786945032 -101.244508292906,19.6519786945032 -101.244508292906,19.6522834329289 -101.242563555318,19.6523911657477 -101.242310498788,19.6519786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">59</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239508292906,19.652205381032 -101.239508292906,19.6519786945032 -101.240335069228,19.6519786945032 -101.239508292906,19.652205381032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">60</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.237008292906,19.6529243735035 -101.237008292906,19.6519786945032 -101.239508292906,19.6519786945032 -101.239508292906,19.652205381032 -101.23875968687,19.6524106347374 -101.237008292906,19.6529243735035</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">61</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.234508292906,19.6536817441398 -101.234508292906,19.6519786945032 -101.237008292906,19.6519786945032 -101.237008292906,19.6529243735035 -101.236237556704,19.6531504545986 -101.234508292906,19.6536817441398</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.232008292906,19.6544498304518 -101.232008292906,19.6519786945032 -101.234508292906,19.6519786945032 -101.234508292906,19.6536817441398 -101.232008292906,19.6544498304518</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.231334081611,19.6519786945032 -101.232008292906,19.6519786945032 -101.232008292906,19.6544498304518 -101.231914344964,19.6544786945032 -101.230446745724,19.6544786945032 -101.23098656439,19.6534619566775 -101.231441374748,19.6524885106729 -101.231334081611,19.6519786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gradilla_ajustada">
+		<SimpleData name="id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.230446745724,19.6544786945032 -101.231914344964,19.6544786945032 -101.230407714844,19.654941583292 -101.230283675655,19.6547858337647 -101.230446745724,19.6544786945032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
