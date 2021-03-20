@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es-MX" xml:lang="es-MX">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Práctica6 Usando a las aves como bioindicadores 2: Monitoreo de aves a través de su captura con redes de niebla | Manual de prácticas para el estudio de ecosistemas a partir del marco teórico de la ecología urbana</title>
+  <meta name="description" content="Este manual contiene instrucciones para realizar prácticas de campo para el estudio de ecosistemas en áreas urbanas. Está dirigido a estudiantes de licenciatura de ramas ambientales." />
+  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Práctica6 Usando a las aves como bioindicadores 2: Monitoreo de aves a través de su captura con redes de niebla | Manual de prácticas para el estudio de ecosistemas a partir del marco teórico de la ecología urbana" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="/img/cover.png" />
+  <meta property="og:description" content="Este manual contiene instrucciones para realizar prácticas de campo para el estudio de ecosistemas en áreas urbanas. Está dirigido a estudiantes de licenciatura de ramas ambientales." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Práctica6 Usando a las aves como bioindicadores 2: Monitoreo de aves a través de su captura con redes de niebla | Manual de prácticas para el estudio de ecosistemas a partir del marco teórico de la ecología urbana" />
+  
+  <meta name="twitter:description" content="Este manual contiene instrucciones para realizar prácticas de campo para el estudio de ecosistemas en áreas urbanas. Está dirigido a estudiantes de licenciatura de ramas ambientales." />
+  <meta name="twitter:image" content="/img/cover.png" />
+
+<meta name="author" content="Rodrigo Pacheco Muñoz" />
+<meta name="author" content="Adrian Ceja Madrigal" />
+<meta name="author" content="Edgar Perez-Negrón Souza" />
+<meta name="author" content="Natalia Medrano Minet" />
+<meta name="author" content="Salvador Pérez Heredia" />
+<meta name="author" content="Jorge E. Schondube" />
+
+
+<meta name="date" content="2021-03-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"/>
+<link rel="next" href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"/>
+<script src="libs/header-attrs-2.7.3/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Índice</a></li>
+<li class="chapter" data-level="" data-path="introducción.html"><a href="introducción.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html"><i class="fa fa-check"></i><b>1</b> Tipos de ambientes desde la ecología urbana</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html#los-ambientes"><i class="fa fa-check"></i><b>1.1</b> Los ambientes</a></li>
+<li class="chapter" data-level="1.2" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html#objetivo"><i class="fa fa-check"></i><b>1.2</b> Objetivo</a></li>
+<li class="chapter" data-level="1.3" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html#material-requerido"><i class="fa fa-check"></i><b>1.3</b> Material requerido</a></li>
+<li class="chapter" data-level="1.4" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html#actividad-virtual"><i class="fa fa-check"></i><b>1.4</b> Actividad virtual</a></li>
+<li class="chapter" data-level="1.5" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html#caminatas-virtuales"><i class="fa fa-check"></i><b>1.5</b> Caminatas virtuales</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html#videos"><i class="fa fa-check"></i><b>1.5.1</b> Videos</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="tipos-de-ambientes-desde-la-ecología-urbana.html"><a href="tipos-de-ambientes-desde-la-ecología-urbana.html#cuestionario"><i class="fa fa-check"></i><b>1.6</b> Cuestionario</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html"><i class="fa fa-check"></i><b>2</b> Información Espacial y uso de software</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#objetivo-1"><i class="fa fa-check"></i><b>2.1</b> Objetivo</a></li>
+<li class="chapter" data-level="2.2" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#software-y-material-requerido"><i class="fa fa-check"></i><b>2.2</b> Software y material requerido</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#qgis"><i class="fa fa-check"></i><b>2.2.1</b> QGIS</a></li>
+<li class="chapter" data-level="2.2.2" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#r-y-rstudio"><i class="fa fa-check"></i><b>2.2.2</b> R y Rstudio</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#prácticas"><i class="fa fa-check"></i><b>2.3</b> Prácticas</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#delimitar-un-área-de-estudio-por-medio-de-un-polígono-vectorial"><i class="fa fa-check"></i><b>2.3.1</b> Delimitar un área de estudio por medio de un polígono vectorial</a></li>
+<li class="chapter" data-level="2.3.2" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#dividir-el-área-de-estudio-por-medio-de-una-gradilla-definida"><i class="fa fa-check"></i><b>2.3.2</b> Dividir el área de estudio por medio de una gradilla definida</a></li>
+<li class="chapter" data-level="2.3.3" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#despliegue-de-puntos-de-muestreo-con-base-en-una-gradilla-definida-de-un-polígono-vectorial"><i class="fa fa-check"></i><b>2.3.3</b> Despliegue de puntos de muestreo con base en una gradilla definida de un polígono vectorial</a></li>
+<li class="chapter" data-level="2.3.4" data-path="información-espacial-y-uso-de-software.html"><a href="información-espacial-y-uso-de-software.html#despliegue-de-un-gradilla-a-nivel-local-con-un-solo-punto-espacial"><i class="fa fa-check"></i><b>2.3.4</b> Despliegue de un gradilla a nivel local con un solo punto espacial</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><i class="fa fa-check"></i><b>3</b> Caracterización del entorno urbano 1: Cuantificacón de condiciones ambientales</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#condiciones-ambientales"><i class="fa fa-check"></i><b>3.1</b> Condiciones ambientales</a></li>
+<li class="chapter" data-level="3.2" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#objetivo-2"><i class="fa fa-check"></i><b>3.2</b> Objetivo</a></li>
+<li class="chapter" data-level="3.3" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#software-y-material-requerido-1"><i class="fa fa-check"></i><b>3.3</b> Software y material requerido</a></li>
+<li class="chapter" data-level="3.4" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#práctica"><i class="fa fa-check"></i><b>3.4</b> Práctica</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#captura-de-datos"><i class="fa fa-check"></i><b>3.4.1</b> Captura de datos</a></li>
+<li class="chapter" data-level="3.4.2" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#cuantificación-de-las-condicionaes-ambientales-un-área-de-studio."><i class="fa fa-check"></i><b>3.4.2</b> Cuantificación de las condicionaes ambientales un área de studio.</a></li>
+<li class="chapter" data-level="3.4.3" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#cuantificación-de-las-condicionaes-ambientales-desde-casa"><i class="fa fa-check"></i><b>3.4.3</b> Cuantificación de las condicionaes ambientales desde casa</a></li>
+<li class="chapter" data-level="3.4.4" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#formato-de-registro-de-datos"><i class="fa fa-check"></i><b>3.4.4</b> Formato de registro de datos</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html"><a href="caracterización-del-entorno-urbano-1-cuantificacón-de-condiciones-ambientales.html#preguntas"><i class="fa fa-check"></i><b>3.5</b> Preguntas</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><i class="fa fa-check"></i><b>4</b> Caracterización del entorno urbano 2: lo verde y lo gris</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#indicaciones-preliminares-y-objetivo"><i class="fa fa-check"></i><b>4.1</b> Indicaciones preliminares y objetivo</a></li>
+<li class="chapter" data-level="4.2" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#software-y-material-requerido-2"><i class="fa fa-check"></i><b>4.2</b> Software y material requerido</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#remoto"><i class="fa fa-check"></i><b>4.2.1</b> Remoto</a></li>
+<li class="chapter" data-level="4.2.2" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#in-situ"><i class="fa fa-check"></i><b>4.2.2</b> <em>In situ</em></a></li>
+<li class="chapter" data-level="4.2.3" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#formato-de-registro-de-datos-1"><i class="fa fa-check"></i><b>4.2.3</b> Formato de registro de datos</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#práctica-1"><i class="fa fa-check"></i><b>4.3</b> Práctica</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#conteo-de-árboles-remoto"><i class="fa fa-check"></i><b>4.3.1</b> Conteo de árboles remoto</a></li>
+<li class="chapter" data-level="4.3.2" data-path="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html"><a href="caracterización-del-entorno-urbano-2-lo-verde-y-lo-gris.html#in-situ-conteo-de-árboles-en-un-radio-definido."><i class="fa fa-check"></i><b>4.3.2</b> <em>In situ</em>: Conteo de árboles en un radio definido.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><i class="fa fa-check"></i><b>5</b> Usando a las aves como bioindicadores 1: puntos de conteo</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html#objetivo-3"><i class="fa fa-check"></i><b>5.1</b> Objetivo</a></li>
+<li class="chapter" data-level="5.2" data-path="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html#software-y-material-requerido-3"><i class="fa fa-check"></i><b>5.2</b> Software y material requerido</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html#formato-de-registro-de-datos-2"><i class="fa fa-check"></i><b>5.2.1</b> Formato de registro de datos</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html#práctica-2"><i class="fa fa-check"></i><b>5.3</b> Práctica</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html#especies-y-abundancia"><i class="fa fa-check"></i><b>5.3.1</b> Especies y abundancia</a></li>
+<li class="chapter" data-level="5.3.2" data-path="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html"><a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html#densidad-de-un-organismo"><i class="fa fa-check"></i><b>5.3.2</b> Densidad de un organismo</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><i class="fa fa-check"></i><b>6</b> Usando a las aves como bioindicadores 2: Monitoreo de aves a través de su captura con redes de niebla</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#objetivos"><i class="fa fa-check"></i><b>6.1</b> Objetivos</a></li>
+<li class="chapter" data-level="6.2" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#bioética-para-la-captura-y-la-toma-de-datos-de-animales-vivos"><i class="fa fa-check"></i><b>6.2</b> Bioética para la captura y la toma de datos de animales vivos</a></li>
+<li class="chapter" data-level="6.3" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#estaciones-de-captura-y-anillado-de-aves-y-su-manejo"><i class="fa fa-check"></i><b>6.3</b> Estaciones de captura y anillado de aves y su manejo</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#personal-necesario-para-el-manejo-de-una-estación-de-captura-y-anillado"><i class="fa fa-check"></i><b>6.3.1</b> Personal necesario para el manejo de una estación de captura y anillado</a></li>
+<li class="chapter" data-level="6.3.2" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#equipo-y-material-necesario-para-la-estación-de-captura-y-anillado"><i class="fa fa-check"></i><b>6.3.2</b> Equipo y material necesario para la estación de captura y anillado</a></li>
+<li class="chapter" data-level="6.3.3" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#manejo-de-las-redes"><i class="fa fa-check"></i><b>6.3.3</b> Manejo de las redes</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#prácticas-con-redes"><i class="fa fa-check"></i><b>6.4</b> Prácticas con redes</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#poner-y-quitar-redes"><i class="fa fa-check"></i><b>6.4.1</b> Poner y quitar redes</a></li>
+<li class="chapter" data-level="6.4.2" data-path="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html"><a href="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla.html#extracción-de-aves-de-las-redes-y-toma-de-datos-de-las-aves"><i class="fa fa-check"></i><b>6.4.2</b> Extracción de aves de las redes y toma de datos de las aves</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><i class="fa fa-check"></i><b>7</b> Usando a las aves como bioindicadores 3: Estudios de conducta animal en zonas urbanas</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html#aspectos-a-considerar-en-el-estudio-del-comportamiento-animal-en-áreas-urbanas"><i class="fa fa-check"></i><b>7.1</b> Aspectos a considerar en el estudio del comportamiento animal en áreas urbanas</a></li>
+<li class="chapter" data-level="7.2" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html#objetivo-4"><i class="fa fa-check"></i><b>7.2</b> Objetivo</a></li>
+<li class="chapter" data-level="7.3" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html#material-requerido-1"><i class="fa fa-check"></i><b>7.3</b> Material requerido</a></li>
+<li class="chapter" data-level="7.4" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html#actividad"><i class="fa fa-check"></i><b>7.4</b> Actividad</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html#el-comportamiento-de-las-aves-en-las-estructuras-urbanas"><i class="fa fa-check"></i><b>7.4.1</b> El comportamiento de las aves en las estructuras urbanas</a></li>
+<li class="chapter" data-level="7.4.2" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html#determinación-de-la-distancia-de-iniciación-de-vuelo-fid-en-aves-urbanas"><i class="fa fa-check"></i><b>7.4.2</b> Determinación de la distancia de iniciación de vuelo (FID) en aves urbanas</a></li>
+<li class="chapter" data-level="7.4.3" data-path="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html"><a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html#diferencias-en-los-tiempos-de-forrajeo-y-vigilancia-en-función-del-número-de-vecinos"><i class="fa fa-check"></i><b>7.4.3</b> Diferencias en los tiempos de forrajeo y vigilancia en función del número de vecinos</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Manual de prácticas para el estudio de ecosistemas a partir del marco teórico de la ecología urbana</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="usando-a-las-aves-como-bioindicadores-2-monitoreo-de-aves-a-través-de-su-captura-con-redes-de-niebla" class="section level1" number="6">
+<h1><span class="header-section-number">Práctica6</span> Usando a las aves como bioindicadores 2: Monitoreo de aves a través de su captura con redes de niebla</h1>
+<p>Para poder comprender los patrones de riqueza de especies y abundancias de los organismos, es crucial poder llevar a cabo estudios de dinámicas poblacionales. Entender la dinámicas poblaciones implica no solo estudiar parámetros poblacionales secundarios como la abundancia, o la estructura poblacional (distribución de sexos y edades en una población), sino también poder estudiar sus parámetros poblacionales primarios (natalidad, mortalidad, inmigración y emigración). Los parámetros poblacionales primarios nos permiten entender que tan productiva es una población, su capacidad para sobrevivir ante ciertas condiciones o cambios en su ambiente, y que tan capaz es esta de mantenerse a futuro, independientemente de lo que ocurra en poblaciones adyacentes.
+<br/></p>
+<div class="line-block">      Aunque este tipo de información es crucial para entender patrones espacio-temporales de presencia y abundancia de diferentes especies, y llevar a cabo acciones de manejo para asegurar la permanencia de estas poblaciones, hacer estudios demográficos puede ser complejo. Para obtener datos demográficos que van más allá de las abundancias de los organismos, requerimos atraparlos, marcarlos, volver a soltarlos, e intentar recapturar a todos los individuos marcados previamente. Llevar a cabo esto requiere mantener sitios de estudio por lo menos durante varias salidas de campo, y conocer las técnicas para captura y procesamiento de los organismos de estudio.</div>
+<p><br/></p>
+<div class="line-block">      Como ya se mencionó anteriormente, uno de los grupos más estudiados en ambientes urbanos son las aves. Las aves han sido utilizadas ampliamente como bioindicadores en el pasado. Esto se debe a que son organismos que muestran gran diversidad y abundancia, y que responden rápidamente a cambios en el ambiente. Esto nos permite relacionar procesos de perturbación o cambio en el ambiente, con cambios en la abundancia, riqueza de especies y parámetros poblaciones de las aves, volviéndolas una herramienta muy útil para comprender procesos de perturbación humana.</div>
+<p><br/></p>
+<div class="line-block">      Estudios recientes utilizando datos de diferentes proyectos de monitoreo han mostrado que las aves de América del Norte han reducido sus abundancias en 30% desde 1970 (Rosenberg et al. 2019). Esto indica que estamos enfrentando una crisis de conservación de aves a nivel continental. Antes de este estudio, ya estaba bien documentado la disminución de las poblaciones de algunas especies de aves migratorias neotropicales (Askins et al., 1990; Finch, 1991; Hogan y Johnston,1992), y aunque tenemos muy poca información para México, sabemos que procesos similares están ocurriendo para muchas especies de aves residentes de nuestro país. Las causas de la disminución en los tamaños poblacionales de las especies afectadas no son del todo conocidas, aunque se sabe que un factor importante es la modificación del hábitat y la deforestación (perdida total de los bosques o fragmentación de estos). Actualmente sabemos muy poco de cómo la urbanización afecta las dinámicas poblaciones de las aves, por lo cual una prioridad de investigación a nivel mundial es iniciar estudios a largo plazo en ciudades para comprender el impacto de la urbanización sobre las poblaciones de aves.</div>
+<div id="objetivos" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Objetivos</h2>
+<p>El objetivo principal de esta sección del manual es proveer un marco de referencia, y las técnicas básicas necesarias para establecer estaciones de captura y marcaje de aves. En estas estaciones se pueden llevar actividades de monitoreo a largo plazo con apoyo de los estudiantes, relacionando los elementos de la estructura del hábitat con parámetros poblacionales como la abundancia, estructura poblacional, condición corporal de los individuos, supervivencia y reproducción de las aves en sitios urbanos. Estos son tres de los parámetros que se recomienda monitorear a largo plazo para lograr obtener información aplicable a la conservación de aves. Aunque en este manual nos enfocamos a ambientes urbanos, estas técnicas pueden ser utilizadas en cualquier sistema ecológico.
+<br/></p>
+<div class="line-block">      Adicionalmente a este objetivo general, las estaciones de monitoreo de aves utilizando capturas con redes de niebla permiten explorar muchos objetivos particulares. Algunos de ellos pueden ser:</div>
+<p><br/></p>
+<ol style="list-style-type: decimal">
+<li><p>Generar información básica sobre periodos de reproducción, muda, patrones de desarrollo, y condición física de las aves, como herramientas para el desarrollo de estudios de dinámicas poblacionales y ecología básica en zonas urbanas.</p></li>
+<li><p>Describir patrones de abundancia estacional de especies de aves residentes y migratorias en sitios urbanos.</p></li>
+<li><p>Describir al paso del tiempo (años; usando los datos generados en prácticas anteriores) cambios en los parámetros poblacionales de abundancia, supervivencia, y éxito reproductivo de las aves urbanas.</p></li>
+<li><p>Determinar el uso que las aves residentes y migratorias hacen del ambiente urbano.</p></li>
+<li><p>Contribuir al inventario de las aves urbanas de nuestro país.</p></li>
+</ol>
+<p>Estos objetivos particulares pueden ser modificados dependiendo de los intereses de los profesores y alumnos participando en las prácticas.</p>
+</div>
+<div id="bioética-para-la-captura-y-la-toma-de-datos-de-animales-vivos" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Bioética para la captura y la toma de datos de animales vivos</h2>
+<p>Cuando requerimos capturar organismos con fines de investigación, es importante contar con un equipo que conozca bien sus técnicas específicas de captura y manipulación. Este equipo de personas deben de estar capacitado y certificado para manejar las capturas, asegurando que las aves capturadas se vean lo menos afectada posibles en su salud e integridad física. Adicionalmente debe contar con permiso de captura y colecta de aves por parte de las autoridades correspondientes (p. ej. la oficina de Fauna Silvestre de la SEMARNAT en México). De este modo, las prácticas asociadas con la captura de aves deben ser coordinadas por al menos dos personas que cuenten con estas características, y que puedan guiar a los estudiantes en su proceso de aprendizaje.
+<br/></p>
+<div class="line-block">      Se deben conocer muy bien qué aspectos influyen en las respuestas de estrés de cada tipo de aves capturadas. Es crucial que la manipulación y toma de datos sea rápida y eficiente, priorizando ante todo el bienestar de las aves capturadas. Algunos de los factores que se deben tomar en cuenta son la temperatura ambiental, el estado hídrico del organismo, los sonidos irritantes, la luz intensa y el tiempo de manipulación. Es crucial seguir las indicaciones y el protocolo establecido por el equipo de trabajo capacitado. Quienes tengan interés en trabajar en el manejo de fauna deben tener presentes los principios detrás de la Bioética, y procurar siempre que los organismos presenten niveles de estrés mínimos y mantengan estables sus condiciones fisiológicas. Para más detalles recomendamos consultar el apartado de “Bioética y bienestar animal en investigaciones con fauna silvestre” del manual de Técnicas para el Estudio de Fauna Nativa en Ambientes Urbanos de la Red Temática Biología, Manejo y Conservación de Fauna Nativa en Ambientes Antropizados <a href="https://fcn.uaq.mx/docs/pdfs/Manual-Tecnicas-para-el-Estudio-de-Fauna-Nativa-2019.pdf">aquí</a>.</div>
+</div>
+<div id="estaciones-de-captura-y-anillado-de-aves-y-su-manejo" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Estaciones de captura y anillado de aves y su manejo</h2>
+<p>Cada uno de los sitios que se utilizarán para capturar y anillar aves y colectar sus datos es conocido como una estación de captura y anillado de aves. Cuando los muestreos son repetidos de forma regular y sistemática en el tiempo y en el espacio, entonces a cada estación de captura la llamamos Estación de Monitoreo. La cantidad de estaciones de captura y/o monitoreo, así como su disposición espacial, dependerá del objetivo y las preguntas de investigación que se tengan al llevar a cabo prácticas. En estas estaciones, además de la captura con redes de niebla, se pueden llevar a cabo métodos complementarios de censado como puntos de conteo (ver <a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html#usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo">capítulo anterior</a>). Las estaciones de captura y anillado deben de contar con una Unidad de Procesamiento. Esto se refiere a un espacio físico en el que se trabajará con las aves capturadas. Este espacio debe estar cerca de las redes, pero no adyacente a ellas, de modo que la actividad de la práctica no afecte las capturas en las redes. Ahí se debe tener el equipo, materiales e instrumentos necesario para procesar a las aves capturadas y tomar sus datos.</p>
+<div id="personal-necesario-para-el-manejo-de-una-estación-de-captura-y-anillado" class="section level3" number="6.3.1">
+<h3><span class="header-section-number">6.3.1</span> Personal necesario para el manejo de una estación de captura y anillado</h3>
+<p>Como ya mencionamos, se requiere un mínimo de dos personas capacitadas y certificadas como anilladores para manejar un sitio de redes. Estas dos personas estarán a cargo de la práctica y coordinar el trabajo de los estudiantes. Para sitios con muchas capturas, se recomienda tener de 3 a 5 personas capacitadas para que el trabajo funcione bien, y los estudiantes puedan separarse en varios equipos de trabajo, cada uno de ellos relacionado con un anillador capacitado. Las personas que participen es estas prácticas deben evitar hablar en las redes, y mantener un nivel de voz bajo al trabajar en la unidad de procesamiento para afectar lo menos posible los patrones de actividad normales de las aves, y no estresar de más a los individuos capturados.
+<br/></p>
+<div class="line-block">      El trabajo con redes generalmente es llevado a cabo por personas capacitadas y voluntarios, estos últimos pueden tener diferentes niveles de entrenamiento. En cada sitio debe haber por lo menos un anillador primario (alguien con entrenamiento completo y capacidad de toma de decisiones sobre el manejo de redes), y uno o más anilladores secundarios (personas capaces de sacar aves de las redes y tomar datos pero con menos experiencia o sin certificación). Es muy importante que los anilladores primarios que dirigen el anillado conozcan las capacidades de los anilladores secundarios que trabajarán con ellos. Durante la práctica, los anilladores primarios y secundarios deben formar equipos con los estudiantes para enseñarles a registrar datos (mostrarles y explicarles las hojas de campo), sacar aves de las redes, y si hay tiempo disponible, entrenarlos en las técnicas para anillar y procesar a las aves capturadas. <strong>UNA PERSONA SIN EXPERIENCIA NUNCA DEBE SACAR AVES DE LAS REDES SIN SER ASESORADA</strong>, lo mismo podemos decir sobre el procesar las aves capturadas. Aves previamente anilladas y recapturadas deben ser solo manejadas por personas con experiencia, y procesadas por el anillador primario.</div>
+</div>
+<div id="equipo-y-material-necesario-para-la-estación-de-captura-y-anillado" class="section level3" number="6.3.2">
+<h3><span class="header-section-number">6.3.2</span> Equipo y material necesario para la estación de captura y anillado</h3>
+<p>A continuación encontraras una lista del equipo y material que se requiere para poder realizar capturas de aves con redes de niebla. Es importante revisar que tu material este completo y en buen estado antes de llevar a cabo tus prácticas.
+<br/></p>
+<ol style="list-style-type: decimal">
+<li><p>Redes. Su número y luz de malla varia dependiendo el sitio a muestrearse. Asegúrate de llevar 2 o 3 redes de repuesto.</p></li>
+<li><p>Tubos extensibles, o tubos con coples. Número variable según el sitio de muestreo.</p></li>
+<li><p>Cuerdas para sujetar las redes. Número variable según el sitio de muestreo. Lleva cuerdas de repuesto como para 3 redes extras.</p></li>
+<li><p>Bolsas de tela blanca y de malla para colocar a las aves. Por lo menos lleva 40 bolsas de tela y 20 de malla. Si vas a anillar en un sitio con muchas capturas aumenta estos números a 60 y 40.</p></li>
+<li><p>Pinzas para colgar ropa, de preferencia de madera. Estas pinzas deben tener números que correspondan con el número de redes colocadas y sirven para marcar las redes. Se necesitan de 3 a 5 pinzas por red, y se usan para marcar las bolsas con aves que fueron capturadas en cada red.</p></li>
+<li><p>1 o 2 toldos.</p></li>
+<li><p>Hojas para colecta de datos en campo (e.g. hojas de anillado, hoja de bitácora). Es importante llevar suficientes hojas para registrar la información de todas las aves capturadas.</p></li>
+<li><p>Caja para hojas de campo o tabla clip para la toma de datos.</p></li>
+<li><p>2-4 lápices, o lapiceros mecánicos (con puntillas extras) y borrador blanco.</p></li>
+<li><p>Guías para identificación de especies. Para estas prácticas recomendamos que los profesores y alumnos instalen en su teléfono inteligente la app Merlin. Esta app es gratuita y permite identificar a las aves utilizando una fotografía de las mismas tomada al momento de su captura.</p></li>
+<li><p>Caja de anillado conteniendo el siguiente equipo y materiales:</p></li>
+</ol>
+<ul>
+<li><p>Pinzas para poner anillos de metal.</p></li>
+<li><p>regleta para medir piernas de aves.</p></li>
+<li><p>Juego de pesolas (por lo menos 4 de las siguientes denominaciones- 10, 30, 50 y 100 g).</p></li>
+<li><p>Regla para alas (“alometro”).</p></li>
+<li><p>Vernier o pie de rey para tomar medidas morfológicas exactas.</p></li>
+<li><p>Anillos metálicos numerados para aves, una serie en uso y una serie extra de repuesto de cada tamaño.</p></li>
+<li><p>Bolsas de papel encerado para guardar muestras adicionales.</p></li>
+<li><p>Material para tomar muestras de sangre y plumas.</p></li>
+<li><p>1 Tijeras pequeñas (para cortar uñas).</p></li>
+<li><p>Gotero con agua azucarada para colibríes.</p></li>
+<li><p>Optivisor.</p></li>
+<li><p>Termómetro de máximas y mínimas.</p></li>
+</ul>
+</div>
+<div id="manejo-de-las-redes" class="section level3" number="6.3.3">
+<h3><span class="header-section-number">6.3.3</span> Manejo de las redes</h3>
+<p>Para llevar a cabo actividades de monitoreo sistemático, las redes deben abrirse entre 5 y 10 minutos después de la salida del sol, justo cuando empieza la actividad de la mayoría de las aves. Debe evitarse abrir las redes cuando aun no ha amanecido y este oscuro para evitar la captura de murciélagos.
+<br/></p>
+<div class="line-block">      Las redes deben ser revisadas continuamente haciendo rondas de entre 20 y 30 minutos en la que un equipo de personas revisa todas las redes. Nunca deben de pasar más de 45 minutos entre rondas. Si las condiciones climáticas son desfavorables (e.g. frío extremo, viento, lluvia ligera, o calor), el tiempo entre rondas debe ser menor (~15 minutos o incluso menos). Todas las aves capturadas deben ser llevadas a la unidad de procesamiento. Sin embargo, si un ave se encuentra en mal estado al ser sacada de la red, y existe el riesgo de que llevarla hasta la unidad de procesamiento pueda causar su muerte, ésta debe ser liberada en el acto tomando los siguientes datos antes de hacerlo: 1) especie, 2) número de anillo (de ser una recaptura), y de ser posible 3) edad y sexo. Para esto es bueno llevar una libreta de campo y pluma en las rondas de revisión de redes. Debido a su acelerado metabolismo, es muy importante que los colibríes sean llevados a la Unidad de Procesamiento primero, así como las aves que aparenten un mal estado, pero no requieran ser liberadas. Algunos de los peligros para las aves que son capturadas en redes son deshidratación, altos niveles de estrés, asfixia por enredarse del cuello, y depredación por rapaces, gatos u otros depredadores.</div>
+<p><br/></p>
+<div class="line-block">      Las redes deben cerrarse cuando el viento sea muy fuerte, llueva moderada o intensamente, o haya acumulación intensa de humedad en ellas. Algunas redes pueden verse más afectadas que otras, por lo tanto a veces se tendrán que cerrar solo algunas de las redes del sitio. Si las condiciones meteorológicas mejoran, las redes deben abrirse otra vez. Es muy importante apuntar cuales redes fueron cerradas y durante cuánto tiempo permanecieron en ese estado.</div>
+<p><br/></p>
+<div class="line-block">      Las redes deben cerrarse exactamente después de 6 horas de haber sido abiertas, cerrándolas en el mismo orden en el que fueron abiertas. Terminado el trabajo, se recoge el equipo del sitio de anillado y se apuntan los siguientes datos en la bitácora del sitio (ver formato anexo): 1. La hora de apertura de la primera red. 2. Hora a la que se cerro la primera red. 3. El número de redes abiertas. 4. Temperaturas mínima y máxima. 5. Número de aves capturadas separadas en paseriformes y colibríes, separándolas en capturas (individuos marcados por primera vez) y recapturas (individuos capturados que ya tenían anillo). 6. Descripción del clima (e.g.. soleado, nublado, con neblina, con o sin viento indicando su intensidad aparente). 7. Número de aves capturadas y recapturadas por especie. 8. Nombres de las personas que anillaron ese día, incluyendo su código de anillador.</div>
+<ol start="9" style="list-style-type: decimal">
+<li>Observaciones varias (importante anotar detalles sobre cualquier red no utilizada, o suceso inusual).</li>
+</ol>
+</div>
+</div>
+<div id="prácticas-con-redes" class="section level2" number="6.4">
+<h2><span class="header-section-number">6.4</span> Prácticas con redes</h2>
+<p>El tener una, o varias estaciones de captura y anillado de aves permite llevar a cabo multiples prácticas con los estudiantes. Si estas estaciones se utilizan regularmente cada vez que se imparte un curso, entonces se pueden empezar a comparar datos entre años, y llevar a cabo sesiones prácticas de análisis de datos. Las siguientes son algunas de las prácticas que pueden llevarse a cabo con los estudiantes.</p>
+<div id="poner-y-quitar-redes" class="section level3" number="6.4.1">
+<h3><span class="header-section-number">6.4.1</span> Poner y quitar redes</h3>
+<p>La primera práctica que hay que llevar a cabo es aprender a colocar y quitar las redes de niebla que se utilizarán para la captura de aves. esta es una práctica simple que requiere de 1 a 2 horas. Es importante separar al grupo en equipos de trabajo de tres o cuatro estudiantes. Se inicia la práctica con una demostración del proceso llevada a cabo por las personas que están a cargo de la estación de captura. Posteriormente cada equipo deberá poner y quitar una red, asegurándose que todos los estudiantes hayan llevado practicado el proceso completo.
+<br/></p>
+<div class="line-block">      Los mejores método para poner y quitar las redes requieren de dos a tres personas por red. Para poner las redes es crucial saber que estas no deben nunca tocar el suelo o lo vegetación adyacente, o se quedarán atoradas o se enredarán en ellas hojas, palitos o cualquier cosa que haya en el suelo. También es necesario evitar usar anillos y pulseras, y utilizar ropa que carezca o tenga el menor número de elementos en los que la red se pueda enredar (e.g. botones, cierres).</div>
+<p><br/></p>
+<div class="line-block">      Las redes de niebla nuevas están empacadas en bolsas de plástico. Una vez usadas, recomendamos guardarlas en bolsas plásticas con asas (como las que se usaban en los supermercados en el pasado - ver figura <a href="#fig:redes"><strong>??</strong></a>). Este método permite que la red se guarde sin que se tuerza o enrede, haciendo más fácil colocarla la siguiente vez que se use. Para personas que no hayan utilizado este método, recomendamos revisarlo a detalle en la publicación original (Blackshaw, 1993).</div>
+<p><br/></p>
+<div class="line-block">      Para poner las redes hay que sacarlas de su bolsa. Recomendamos si se usa el método de Blackshaw (ver arriba), no sacar la red de la bolsa, hasta que se han puesto los tensores dentro del tubo que sostendrá la red (comúnmente hay 5 tensores en cada extremo de la red). Entonces se puede sacar el asa de la bolsa de los tensores, mientras con la otro mano se sujeta la segunda asa de la bolsa dejando los tensores del otro extremo de la red dentro del asa. Mientras una persona sujeta el poste, la otra debe de ir alejándose mientras saca la red de la bolsa lentamente manteniéndola tensa para que no toque el suelo. Al tener la red totalmente extendida, se procede a sacar los tensores del asa y ver que la red no este torcida antes de poner los tensores en el segundo poste. Una vez la red esté colocada, los postes se sujetan firmemente en su lugar usando tensores de cuerda.</div>
+<p><br/></p>
+<div class="line-block">      Para cerrar y quitar las redes hay dos métodos. En el primer método una persona cierra su lado de la red y comienza a enredar la red sobre si misma con movimientos circulares, sin dejar que la red se enrede sobre el tensor superior; la segunda persona cierra su lado de la red mientras la primera esta enredándola. La segunda técnica consiste en cerrar ambos extremos dejando el tensor superior un poco abierto, y que ambas personas enreden la red al mismo tiempo girándola en la misma dirección. Una vez enredada la red en sí misma, el tensor superior se baja, y se le dan un par de vueltas a la red sobre este, para asegurar que la red no se abra por acción del viento. Una vez cerrada la red, se pueda retirar y guardar en una bolsa, cuidando de mantener los tensores de la red juntos. Hay tantas formas de guardar las redes una vez que han sido retiradas, como personas que trabajan con redes. Hay que seguir la forma de guardar las redes de las personas a cargo de la estación de captura y anillado.</div>
+<div class="figure" style="text-align: center"><span id="fig:redes-1"></span>
+<img src="img/poner%20y%20quitar%20redes%201.jpg" alt="Técnica de Blackshaw (1993) para guardar redes de niebla en bolsas con asas. Los tensores de la red no deben de estar en el asa de la bolsa o en el tubo de soporte. Si esta técnica se utiliza correctamente los diferentes tensores de la red no se torcerán, facilitando el montaje y la apertura de las redes, y disminuyendo el tiempo para colocarlas y utilizarlas. Dibujos tomados del artículo original con permiso del autor." width="50%" />
+<p class="caption">
+Figura 6.1: Técnica de Blackshaw (1993) para guardar redes de niebla en bolsas con asas. Los tensores de la red no deben de estar en el asa de la bolsa o en el tubo de soporte. Si esta técnica se utiliza correctamente los diferentes tensores de la red no se torcerán, facilitando el montaje y la apertura de las redes, y disminuyendo el tiempo para colocarlas y utilizarlas. Dibujos tomados del artículo original con permiso del autor.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:redes-2"></span>
+<img src="img/poner%20y%20quitar%20redes%202.jpg" alt="Técnica de Blackshaw (1993) para guardar redes de niebla en bolsas con asas. Los tensores de la red no deben de estar en el asa de la bolsa o en el tubo de soporte. Si esta técnica se utiliza correctamente los diferentes tensores de la red no se torcerán, facilitando el montaje y la apertura de las redes, y disminuyendo el tiempo para colocarlas y utilizarlas. Dibujos tomados del artículo original con permiso del autor." width="50%" />
+<p class="caption">
+Figura 6.2: Técnica de Blackshaw (1993) para guardar redes de niebla en bolsas con asas. Los tensores de la red no deben de estar en el asa de la bolsa o en el tubo de soporte. Si esta técnica se utiliza correctamente los diferentes tensores de la red no se torcerán, facilitando el montaje y la apertura de las redes, y disminuyendo el tiempo para colocarlas y utilizarlas. Dibujos tomados del artículo original con permiso del autor.
+</p>
+</div>
+</div>
+<div id="extracción-de-aves-de-las-redes-y-toma-de-datos-de-las-aves" class="section level3" number="6.4.2">
+<h3><span class="header-section-number">6.4.2</span> Extracción de aves de las redes y toma de datos de las aves</h3>
+<p>Una vez los estudiantes han aprendido a colocar, abrir, cerrar y quitar redes, ellos pueden montar las redes de las estaciones de captura y anillado con apoyo de los responsables de las prácticas. En la estación de captura y anillado se deben formar equipos de trabajo con los estudiantes. el número de equipos dependerá del cuantos anilladores primarios y secundarios haya presentes en la estación. Uno o dos equipos revisarán redes y sacarán a las aves capturadas, mientras los otros equipos trabajaran procesando a las aves capturadas. Los diferentes equipos deben tomar turnos para que todos los estudiantes puedan observar, y de ser practicar, realizar ambas actividades. Se recomienda hacer varias prácticas de extracción de aves y toma de datos durante el semestre, de modo que los estudiantes puedan ir ganando experiencia y participen cada vez de forma más activa.</p>
+<div id="extracción-de-aves-de-las-redes" class="section level4" number="6.4.2.1">
+<h4><span class="header-section-number">6.4.2.1</span> Extracción de aves de las redes</h4>
+<p>Las formas en que se pueden sacar aves de las redes son variadas, y diferentes anilladores pueden usar diferentes técnicas. Sacar aves de la red requiere de práctica, paciencia y sobre todo, de responsabilidad ética por parte de la persona que esta manejando al ave. Nunca hay que olvidar que estamos manejando a un organismo vivo, y que nosotros somos responsables de cuidar su salud y liberarlo en buen estado. Para manejar a un ave, tanto en la red como fuera de esta, es necesario sujetarla al mismo tiempo con firmeza y delicadeza. Todos los estudiantes principiante deben aprender a sacar a las aves bajo la tutela de un anillador experimentado. Nunca hay que olvidar que la vida y la salud del ave son lo más importante cuando trabajamos con redes u otros métodos de captura.
+Cuando revisamos las redes y encontramos un ave enredada, debemos seguir los siguientes pasos para sacarla:</p>
+<ol style="list-style-type: decimal">
+<li><p>Ver por qué lado de la red entró el ave.</p></li>
+<li><p>Una vez que sabemos por qué lado de la red entró el ave, se le sujeta con la mano tratando de impedir su movimiento sin apretarla. Una vez que está inmovilizada, se empiezan a sacar al ave de la red liberando primero sus patas. Hay que ser muy cuidadosos para encontrar una área del cuerpo del ave que no este enredada, e iniciar la remoción de la red desde ese lugar. Generalmente la zona del ave que no se enreda es la de la cola/rabadilla/vientre. Nunca se debe sujetar al ave por su cola, ya que las aves pueden liberar las plumas de la cola a voluntad, y esto implica que pierda la cola. Un ave sin cola no vuela bien, y requiere volver a crecer sus plumas perdidas. Esto le provoca costos energéticos altos que debemos evitar.</p></li>
+<li><p>Cuando estamos aprendiendo, siempre debemos empezar a desenredar al ave por sus patas. Cuando liberemos una pata, hay que sujetarla con los dedos para evitar que se vuelva a enredar. Cuando ambas patas están libres, se puede tomar al ave colocando sus muslos entre nuestros dedos índice y medio. Esto permite empezar a liberar las alas del ave. Hay que ser cuidadoso de no tomar al ave por su tarso, ya que este es frágil y se puede llegar a lastimar al ave.</p></li>
+<li><p>Sosteniendo al ave por sus muslos permite desenredar las alas del ave, una a la vez. Los hilos de la red se atoran en las alas a nivel del codo o de la muñeca, y entre algunas de las plumas del ala. Por lo tanto, hay que extender el ala suavemente y buscar los hilos en la parte interior del ala a la altura del codo, y pasarlos uno a uno por encima del codo deslizándolos hacia la punta del ala, hasta que esta quede libre. Este procedimiento debe repetirse con la segunda ala después de haber liberado la cabeza.</p></li>
+<li><p>Una vez las patas y un ala del ave estén libres, se debe sujetar al ave utilizando la llamada “posición de anillador” (figura <a href="#fig:redes"><strong>??</strong></a>). En esta forma de sujetar al ave, se apoya la espalda del ave sobre la palma de la mano, y se sujeta la cabeza del ave colocando los dedos índice y medio alrededor del cuello del ave. En esta posición se puede desenredar la cabeza del ave, y después la segunda ala.</p></li>
+<li><p>Para liberar la cabeza se buscan hilos entre las plumas de la nuca, y se recorren hacia la parte delantera de la cabeza. Muchas veces es necesario soplar para separar las plumas y poder ver dónde están los hilos de la red. Cada uno de los hilos se pasa por encima de la cabeza del ave y se recorren hasta la punta del pico. Hay que ser muy cuidadosos si hay hilos dentro de la boca del ave, ya que a veces se pueden enredar en su lengua. Cuando haya hilos dentro del pico, se debe abrir el pico muy suavemente y ver dónde están los hilos. En la mayoría de las veces, al abrir el pico, los hilos se liberan por completo. Si los hilos están enredados en la lengua se recomienda utilizar unas pinzas finas para ayudar a desenredarla jalando los hilos con mucho cuidado.</p></li>
+<li><p>Ya que el ave esta libre, se le continua sujetando en la posición de anillador, y finalmente se mete dentro de una bolsa de tela para ser transportada a la Unidad de procesamiento. Hay que marcar la bolsa con una de las pinzas de ropa que lleva el número de la red donde el ave fue capturada.</p></li>
+</ol>
+<div class="figure" style="text-align: center"><span id="fig:redes1"></span>
+<img src="img/banders%20grip.jpg" alt="Posición de anillador para sujetar aves. Esta posición se utiliza, tanto para sujetar al ave cuando la estamos sacando de la red, como durante el proceso de toma de datos. Debido a que las alas del ave quedan apoyadas sobre la palma de la mano del anillador, es más difícil que el ave las mueva y escape volando. Desde esta posición es muy sencillo color el anillo en la pata del ave durante el proceso de anillado." width="60%" />
+<p class="caption">
+Figura 6.3: Posición de anillador para sujetar aves. Esta posición se utiliza, tanto para sujetar al ave cuando la estamos sacando de la red, como durante el proceso de toma de datos. Debido a que las alas del ave quedan apoyadas sobre la palma de la mano del anillador, es más difícil que el ave las mueva y escape volando. Desde esta posición es muy sencillo color el anillo en la pata del ave durante el proceso de anillado.
+</p>
+</div>
+</div>
+<div id="toma-de-datos-de-las-aves" class="section level4" number="6.4.2.2">
+<h4><span class="header-section-number">6.4.2.2</span> Toma de datos de las aves</h4>
+<p>Antes de procesar un ave es muy importante que se conozca el tipo de información que se va a colectar, y los códigos y valores que se utilizan para llenar la hoja de campo. Esta información, y ejemplos de las hojas de campo puede ser consultadas en al Apéndice I de este manual.</p>
+<p><strong>a) Identificación</strong></p>
+<p>El primer paso al procesar un ave es identificarla a nivel de especie. Hay especies sumamente fáciles de identificar por su plumaje, pero hay otras que pueden ser muy difíciles difíciles. Si no estas seguro de la identificación del ave revisa por lo menos dos guías de campo para asegurarte que tu identificación sea correcta. En algunos casos para especies difíciles de identificar será necesario tomar medidas para identificarlas correctamente. ES MUY IMPORTANTE QUE ANTE CUALQUIER DUDA SE REVISEN LAS GUIAS, no es valido decir: “como estoy casi seguro voy a decir que es esta especie…”, debe haber total certeza en la identificación. En contadas ocasiones la identificación de la especie es imposible (no hay información definitiva para separar la especie), quedándose a nivel de género, si esto sucede has lo siguiente:
+<br/></p>
+<p>Escribe en la hoja de campo el género seguido por las letras “sp.”.
+<br/></p>
+<p>Si esta casi seguro de que es una especie pero no puede probarlo, escriba “aff.” entre el género y la especie.
+<br/></p>
+<p>En ambas situaciones se debe fotografiar al ave y utilizar la sección de notas de la hoja de campo para explicar detalladamente porque no se pudo confirmar la identificación. Se recomienda complementar esta nota con medidas morfológicas.
+<br/></p>
+<p>Un anillador que no revisa, lee y utiliza continuamente sus guías es un mal anillador. En cada equipo de anillado deben haber por lo menos dos guías de aves. Algunas de las guías que se pueden usar son:</p>
+<ol style="list-style-type: decimal">
+<li><p>A guide to the birds of México and Northern Central America. Howell and Webb (Inglés).</p></li>
+<li><p>A field Guide to Mexican Birds. Peterson and Chalif (versión en Inglés o en Español).</p></li>
+<li><p>Field Guide to the Birds of North America. National Geographic Society (Inglés).</p></li>
+<li><p>Identification Guide to North American Passerines. Pyle et. al. (Inglés).</p></li>
+</ol>
+<p>Se recomienda también bajar la app Merlin y tenerla disponible en sus teléfonos inteligentes. Esta app ha sido generada por el laboratorio de ornitología de Cornell y es gratuita. Permite identificar a las aves por medio de tomarles una fotografía. Aunque esta app es muy útil, no remplaza el uso de las guías tradicionales de aves.</p>
+<p><strong>b) Anillar un ave</strong></p>
+<p>Una vez identificada la especie, anota su nombre científico en la hoja de datos y colócale un anillo. Los anillos metálicos que se utilizan para marcar a las aves tienen un número en relieve que permite identificarlos cuando son recapturados. Los anillos vienen en diferentes tamaños, por lo que debes utilizar utilizar la regleta para medir piernas de aves que se encuentra en la caja de anillado para determinar que tamaño de anillo le debes colocar al ave. Toma el anillo del tamaño adecuado, colócalo abierto en una pinza de anillar, y mete el tarso del ave dentro del anillo. Aprieta la pinza suavemente hasta que el anillo este cerrado, cuidando de que el tarso del ave quede adentro y no sea lastimado por al anillo.
+<br/></p>
+<div class="line-block">      Asegúrate que el anillo se encuentra bien colocado, que no esté ni muy apretado ni muy flojo, que los bordes están bien cerrados y no se han traslapado uno sobre el otro. Si el anillo ha sido mal colocado (bordes traslapados), o le quedo chico (no gira) o grande al ave (pasa sobre el talón), debe ser retirado, y destruido. Un nuevo anillo debe ser colocado en el ave.</div>
+<p><br/></p>
+<div class="line-block">      Retirar un anillo es una operación sencilla que requiere dos personas: una debe sujetar el ave en posición de anillado, inmovilizándole la pierna anillada, mientras la otra se dedica a retirar el anillo. Pasa dos pedazos de alambre delgado dentro del anillo, y uniendo sus extremos gíralos de modo que cada alambre quede fijo al anillo formando una especie de “asa”. Coloca cada alambre a un lado de la unión del anillo y tira de ellos al mismo tiempo en direcciones opuestas, ayudándote con las pinzas de anillado para sujetar los alambres. El anillo debe irse abriendo lentamente. Es importante realizar esta maniobra rápida y delicadamente para no causarle estrés al ave.</div>
+<p><br/></p>
+<div class="line-block">      Una vez anillada el ave se debe registrar el número del anillo en la hoja de campo. Hay que revisar que el número este registrado correctamente. Cualquier error en el registro del anillo anula nuestra oportunidad de volver a identificar al ave en el futuro.</div>
+<p><br/></p>
+<p><strong>c) Cuando el ave es una recaptura:</strong></p>
+<p>Si el ave capturada ya tiene anillo, se le considera una recaptura. Es muy importante recuperar el número del anillo que trae puesto el ave correctamente. Se debe tomar al ave y leer el numero del anillo para que alguien lo registre en la hoja de campo. Una vez registrado el anillo, la persona que lo escribió debe leerlo en voz alta para que el anillador corrobore que el número es correcto revisando una vez más el anillo en el ave. <strong>ES MUY IMPORTANTE QUE SE ANOTE CORRECTAMENTE EL NÚMERO DE ANILLO</strong>, por lo tanto este debe ser leído con mucho cuidado, anotado y vuelto a leer para evitar errores de anotación.</p>
+<p><strong>d) Toma de datos</strong></p>
+<p>Toma los datos sobre el ave capturada en el siguiente orden:</p>
+<ol style="list-style-type: decimal">
+<li><p>Porcentaje de osificación craneal (valores 0, 1, 2, 3, 4, 5, 6).</p></li>
+<li><p>Edad del ave (valores L, P, S,V, A, D), y los criterios que utilizaste para determinarla (revisa el apéndice I de este manual).</p></li>
+<li><p>Sexo (valores M, H, D), y los criterios que utilizaste para determinarlo (revisa apéndice I).</p></li>
+<li><p>Condición reproductora. Protuberancia cloacal (valores 0, 1, 2, 3) y Parche de incubación ( valores 0, 1, 2, 3,4). Generalmente estas características reproductivas pueden encontrarse en los meses de marzo a Septiembre.</p></li>
+<li><p>Cantidad de grasa acumulada (valores 0, 1, 2, 3).</p></li>
+<li><p>Muda corporal (valores 0, 1, 2, 3, 4), anotando en “Notas” las regiones con muda.</p></li>
+<li><p>Muda de vuelo. Utilizando las plumas de las alas para determinarla (valores 0, A, S), y anotando en “Notas” las plumas que están mudando.</p></li>
+<li><p>Desgaste de vuelo (valores 0, 1, 2, 3).</p></li>
+<li><p>Presencia de plumaje juvenil (valores 0, 1, 2, 3).</p></li>
+<li><p>Medida de la cuerda alar (ala no aplanada) en mm.</p></li>
+<li><p>Peso en gramos al mayor detalle posible. Utiliza de preferencia la balanza analítica, de no poderse trabaja con las pesolas. Asegúrate de tarar la balanza y las pesolas cada vez que las utilices.</p></li>
+<li><p>Toma notas sobre ectoparasitos, heridas, malformaciones, características inusuales del plumaje o cualquier cosa fuera de lo normal.</p></li>
+<li><p>Si el ave excreta durante el proceso y la excreta contiene semillas o restos de frutas, coléctala utilizando papel encerado. En el papel anota la especie, edad y sexo del ave, el sitio y la fecha.</p></li>
+<li><p>Revisa una vez más el número del anillo.</p></li>
+<li><p>Una vez liberada el ave, escribe el estado del ave en la hoja (300 para aves sin anillos de colores y en buen estado de salud, 301 para aves con anillos de colores, 615 para aves heridas o en mal estado (estresadas), describiendo en “Notas” el problema, y 600 para aves muertas).</p></li>
+<li><p>Siempre ten en cuenta que es indispensable que seas honesto con la toma de datos. Si no estas seguro sobre algún dato en particular, coloca un 9 (dato no tomado) o una d (dato desconocido) en el lugar correspondiente. Vale más tener pocos datos que sean precisos, que muchos datos de baja calidad. En proyectos de monitoreo donde participan diferentes anilladores, es indispensable tener estandarizada la toma de datos, ya que la calidad de la información obtenida será igual a la del anillador de menor calidad dentro del grupo.</p></li>
+</ol>
+<p><strong>e) Toma de datos mínimos</strong></p>
+<p>Bajo condiciones adversas de clima, cuando el número de capturas sea muy elevado o haya aves en mal estado (estrés, heridas) se recomienda tomar datos mínimos para acelerar la toma de datos y liberar con mayor rapidez a las aves capturadas. Los datos considerados mínimos son: número de anillo, especie, edad, sexo y peso.</p>
+<p><strong>f) Orden de procesado</strong></p>
+<p>Es importante tener un orden para procesar a las aves capturadas, de modo que se les dé preferencia a aves de especies sensibles. El orden recomendado a seguir es:</p>
+<ol style="list-style-type: decimal">
+<li><p>Colibríes y aves heridas.</p></li>
+<li><p>Aves sensibles</p></li>
+<li><p>Recapturas.</p></li>
+<li><p>Demás aves.</p></li>
+</ol>
+<p><strong>e) Liberar a las aves</strong></p>
+<p>Es importante liberar a las aves capturadas lo más rápido posible a aves una vez que hayan sido procesadas. Para lograr esto hay que aprender a procesar a las aves de forma rápida y precisa. Por lo general, un anillador avanzado puede procesar a un ave por completo en menos de un minuto. Hay que dar prioridad para procesar y para liberar más rápido a aves con las siguientes características:</p>
+<ol style="list-style-type: decimal">
+<li><p>Aves en mal estado, o heridas.</p></li>
+<li><p>Aves con anillos de metal o anillos de colores.</p></li>
+<li><p>Aves con parche de incubación activo. A estas aves hay que liberarlas en la cercanía de la red donde fueron capturadas, para facilitarles regresar a su nido lo más rápido posible.</p></li>
+<li><p>Aves juveniles con colas que no han terminado de crecer (esto indica que aún son dependientes de los padres y requieren ser liberados cerca de su red de captura).</p></li>
+<li><p>Miembros de una familia o parvada. Las aves hay que son capturadas en grupo deben ser liberadas juntas.</p></li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="usando-a-las-aves-como-bioindicadores-1-puntos-de-conteo.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
