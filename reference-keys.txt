@@ -87,6 +87,7 @@ poner-y-quitar-redes
 extracción-de-aves-de-las-redes-y-toma-de-datos-de-las-aves
 extracción-de-aves-de-las-redes
 toma-de-datos-de-las-aves
+appendice-a
 usando-a-las-aves-como-bioindicadores-3-estudios-de-conducta-animal-en-zonas-urbanas
 aspectos-a-considerar-en-el-estudio-del-comportamiento-animal-en-áreas-urbanas
 objetivo-4
